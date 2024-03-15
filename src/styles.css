@@ -1,0 +1,74 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+:root {
+    --background: rgb(26, 26, 50);
+}
+h1, h3, .tangerine {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+span, h4, .raleway {
+    font-family: "Raleway", sans-serif;
+}
+header {
+    background-image: url("./utils/image/header.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.line {
+    height: 1px;
+    background: gray
+}
+.blow {
+    right: 0px;
+    bottom: -150px;
+    width: 300px;
+}
+.quality-icon {
+    top: -20px;
+    left: -30px;
+    transform: rotate(-25deg);
+}
+.comments {
+    background-image: url('./utils/image/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bg1 {
+    background-image: url('./utils/image/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg2 {
+    background-image: url('./utils/image/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-coffee-left {
+    background-image: url('./utils/image/bg-coffee.webp');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.coffeeDay {
+    top: 0;
+}
