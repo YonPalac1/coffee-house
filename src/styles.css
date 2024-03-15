@@ -72,3 +72,12 @@ header {
 .coffeeDay {
     top: 0;
 }
+.slider-container {
+    overflow: auto;
+}
+.inner-slider {
+    width: 500px;
+}
+.slider-img {
+    width: 800px;
+}

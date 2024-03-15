@@ -115,4 +115,4 @@ export const Blog = [{
     img: img6,
     date: "September 20, 2020",
     paraph: "Elegant dessert: 10 tips to make it at home"
-},]
+}]

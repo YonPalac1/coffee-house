@@ -9,13 +9,14 @@ import Line from "./components/commons/Line";
 import MenuOptions from "./components/MenuOptions";
 import OurNumbers from "./components/OurNumbers";
 import Attention from "./components/Attention";
+import Slider from "./components/Slider";
 
 import banner from "./utils/image/banner.webp"
 import mancha from "./utils/image/mancha.png"
 import icon from "./utils/image/icon2.webp"
 import coffee1 from "./utils/image/coffee-1.webp"
 
-import { Blog, Images, Quality, Icons, Menu } from "./constants";
+import { Images, Quality, Icons, Menu } from "./constants";
 
 export default function App() {
 
@@ -183,19 +184,7 @@ export default function App() {
                 <svg width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-square-rotated"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0z" /></svg>
                 <Line w={"50px"} />
             </div>
-            <div className="grid md:grid-cols-3 gap-6 text-white text-left">
-                {
-                    Blog.map((item, i) => {
-                        return <div key={i} className="bg-black">
-                            <img src={item.img} alt="" />
-                            <div className="p-5 leading-2">
-                                <p className="text-orange-400">{item.date}</p>
-                                <p className="font-bold mt-5">{item.paraph}</p>
-                            </div>
-                        </div>
-                    })
-                }
-            </div>
+            <Slider />
         </motion.section>
 
         <section className="grid mt-12 md:grid-cols-2">
