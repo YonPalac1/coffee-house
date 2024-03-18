@@ -17,28 +17,28 @@ import icon3 from './utils/image/icon3.png'
 export const Icons = [american, latte, mocha]
 
 export const Menu = [{
-    name:"espresso", 
-    price:"2",
+    name:"americano", 
+    price:"90",
     content:"1 shot"
 },{
-    name:"espresso", 
-    price:"2",
+    name:"latte", 
+    price:"90",
     content:"1 shot"
 },{
-    name:"espresso", 
-    price:"2",
+    name:"cappuccino", 
+    price:"80",
     content:"1 shot"
 },{
-    name:"espresso", 
-    price:"2",
+    name:"cold brew", 
+    price:"120",
     content:"1 shot"
 },{
-    name:"espresso", 
-    price:"2",
+    name:"nitro coffee", 
+    price:"150",
     content:"1 shot"
 },{
-    name:"espresso", 
-    price:"2",
+    name:"cafe irlandés", 
+    price:"110",
     content:"1 shot"
 },
 ]
@@ -72,17 +72,17 @@ export const Images = [{
 
 export const Quality = [{
     title: "los mejores granos",
-    p: "From signature delights such as beef tartare and best maoshed potate in paris, off the way unique",
+    p: "Un viaje sensorial, acidez vibrante, dulzura acaramelada, notas frutals o profundidad terroza. ¡Encuentra tu cafe perfecto!",
     icon: icon1
 },
 {
-    title: "Great Coffee Beans",
-    p: "From signature delights such as beef tartare and best maoshed potate in paris, off the way unique",
+    title: "los mejores sabores",
+    p: "Viaja por un mundo de sabores con nuestras exquisitas opciones",
     icon: icon2
 },
 {
-    title: "Great Coffee Beans",
-    p: "From signature delights such as beef tartare and best maoshed potate in paris, off the way unique",
+    title: "un increible menu",
+    p: "Explora nuestro menú y dejate cautivar",
     icon: icon3
 }]
 
