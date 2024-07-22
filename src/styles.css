@@ -81,3 +81,6 @@ header {
 .slider-img {
     width: 800px;
 }
+.container-icon-quality img {
+    max-width: 30px;
+}

@@ -1,11 +1,6 @@
-import { motion } from "framer-motion"
 
 export default function Cards({ title, img, time, text }) {
-    return <motion.div 
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: time }} 
-            className="border border-gray-300 text-center text-white bg-gray-900 pt-12 pb-12 capitalize">
+    return <div className="border border-gray-300 text-center text-white bg-gray-900 pt-12 pb-12 capitalize">
         <div className="m-auto mb-12">
             <img className="w-[50px] m-auto" src={img} alt={title} />
         </div>
@@ -19,5 +14,5 @@ export default function Cards({ title, img, time, text }) {
 
             </a>
         </div>
-    </motion.div>
+    </div>
 }
